@@ -15,4 +15,3 @@ for y in range(1_000):
 df = pd.DataFrame(RandList, columns=['Number'])
 print(df)
 
-df.plot
