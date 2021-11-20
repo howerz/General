@@ -1,5 +1,6 @@
-###Numbers get too large that default settings cannot handle the float
- 
+### Numbers get too large that default settings cannot handle the float
+### Times are too small that default settings cannot handle the float
+
 import time
 
 x=5

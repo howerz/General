@@ -6,7 +6,7 @@ y="Buzz"
 
 Start_Time = time.time()
 
-while i<=100:
+while i<=1_000:
     if i%3==0 and i%5==0:
         print(x+y)
     elif i%3==0:

@@ -3,7 +3,7 @@ Start_Time = time.time()
 
 Keywords = {3:"Fizz", 5:"Buzz"}
 
-for i in range(1, 101):
+for i in range(1, 1_001):
     Output = ""
     for x in Keywords:
         if i % x == 0:
