@@ -1,2 +1,2 @@
 # General
-# I'm learnin' over here!
+# Hey watchit I'm tryin learn over here!
