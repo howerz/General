@@ -1,7 +1,11 @@
+import time
+
+start = time.perf_counter()
+
 proven = []
 temp = []
 
-for i in range(1,101):
+for i in range(1,10_001):
     temp.append(i)
     while i != 1:
         if i in proven:
@@ -19,5 +23,9 @@ for i in range(1,101):
             proven.append(y)
     temp = []    
 proven.sort()
-print(proven)
-print(str("{:,}".format(len(proven))) + " numbers have been proven with the max number being " + str("{:,}".format(max(proven))))
+#print(proven)
+#print(str("{:,}".format(len(proven))) + " numbers have been proven with the max number being " + str("{:,}".format(max(proven))))
+
+total = time.perf_counter() - start
+print(total)
+print(len(proven))
