@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Lab3_Part1 { 
     public static void main(String[] args) {
-        // VS code suggested I close this with a try? I do not understand why
+        // VS code suggested I close this with a try? I do not understand why. I guess if the system didn't pause and the user never inputs a value?
         try (Scanner input = new Scanner(System.in)) { //instantiates a scanner input
             
             // Grabs 5 ints from user
