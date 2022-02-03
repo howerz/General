@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int roomMax = 0;
+    int attend = 0;
+    int remain = 0;
+    cout << "Enter maximum room capacity:\n";
+    cin >> roomMax;
+    cout << "Enter the number of people that are attending:\n";
+    cin >> attend;
+    if (attend <= roomMax)
+    {
+        remain = roomMax - attend;
+        cout << "It is legal to have the meeting and " << remain << " people can still join!\n";
+    }
+    else
+    {
+        cout << "You may NOT have this meeting with this many people. I am calling the police. >:(\n";
+    }
+    system("Pause");
+    return 0;
+}
